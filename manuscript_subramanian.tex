@@ -68,7 +68,182 @@ To investigate the relative importance of ST and SM effects on TC evolution over
 This study uses the idealized framework of the operationally adopted HWRF (HWRFX2013) with domain settings and physics options (Table \ref{tab:HWRF_phy}) similar to that of Gopalakrishnan et al.\cite{Gopal2013}. The initial cyclonic vortex strength was set to 20 m/s. A typical tropical sounding\cite{Gray1975} was used for temperature and humidity. The HWRFX2013\cite{HWRFdoc2014} system configuration uses the HWRF surface layer parameterization scheme to represent surface layer fluxes and boundary layer processes. In order to individually study the ST and SM feedbacks, the bulk slab land surface parameterization was used for all ideal simulations. 
 To simulate landfall, a vortex was introduced and kept fixed at the center of the domain and the land surface was advected at a constant rate. The effect of basic environmental flow and its interaction with the surface is ignored similar to studies by Tuleya and Kurihara\cite{tuleya1978} and Halliwell et al.\cite{Halliwell2015}. The model was integrated for 120 hours with landfall around the 56$^{th}$ hour. An animation of the domain setup is shown in Supplementary Video S1. GFDL land surface model was used for the idealized experiment. It is a single layer land surface model with explicit temperature prediction. This model does not predict soil moisture and is initialized manually. A homogeneous land surface is defined using the model default soil and the vegetation look-up tables and is initialized to dry, bare sandy soil. To extract the feedback processes and interactions in these idealized simulations, land temperature is held constant and diurnal variation effects are eliminated. The model was initialized to the default setting with the following parameters held constant. The ST was set to 308 K and SM at 0.02 m$^{3}$/ m$^{3}$ along with land surface roughness (z$_{0}$) of 0.01 m. The radius of maximum winds that defines the size of the storm was set to 90 km to simulate a moderate-sized storm. To maintain the ocean temperature higher than the threshold value favoring cyclone genesis and evolution, SST was held at a constant 302 K throughout the simulations. A number of experiments were conducted and a subset of 16 experiments was selected to study warm and wet land surfaces as shown in table S2. These experiments seek to isolate the SM and ST impacts on TC evolution following a factor separation (FacSep) approach\cite{SteinnAlpert1993}.  To further evaluate our hypothesis, a real case (TS ERIN (2007)) was run using operational HWRF (HWRF v3.7). The three nested grids were configured with 18:6:2 km. The physics options are the same as in Table \ref{tab:HWRF_phy} (similar to the operational configuration) except Noah land surface model with GFDL surface physics was used to make it as realistic as possible with diurnal and spatial soil moisture, soil temperature evolution.
 
-\bibliography{Mendeley}
+\bibliography{@article{kishtawal2013,
+    title = {{Enhancement of inland penetration of monsoon depressions in the Bay of Bengal due to prestorm ground wetness}},
+    year = {2013},
+    journal = {Water Resources Research},
+    author = {Kishtawal, C M and Niyogi, Dev and Rajagopalan, Balaji and Rajeevan, M and Jaiswal, N and Mohanty, U C},
+    number = {6},
+    pages = {3589--3600},
+    volume = {49},
+    issn = {1944-7973}
+}
+
+@article{Tuleya1994,
+    title = {{Tropical storm development and decay: Sensitivity to surface boundary conditions}},
+    year = {1994},
+    journal = {Monthly Weather Review},
+    author = {Tuleya, Robert E},
+    number = {2},
+    pages = {291--304},
+    volume = {122},
+    issn = {1520-0493}
+}
+
+@article{Emanuel2008,
+    title = {{A Hypothesis for the Redevelopment of Warm-Core Cyclones over Northern Australia*}},
+    year = {2008},
+    journal = {Monthly Weather Review},
+    author = {Emanuel, Kerry and Callaghan, Jeff and Otto, Peter},
+    number = {10},
+    pages = {3863--3872},
+    volume = {136},
+    issn = {1520-0493}
+}
+
+@article{Gray1975,
+    title = {{Relative humidity in tropical weather systems}},
+    year = {1975},
+    journal = {Monthly Weather Review},
+    author = {Gray, William M and Ruprecht, Eberhard and Phelps, Ronald},
+    number = {8},
+    pages = {685--690},
+    volume = {103},
+    issn = {1520-0493}
+}
+
+@article{kishtawal2012,
+    title = {{Sensitivity of inland decay of North Atlantic tropical cyclones to soil parameters}},
+    year = {2012},
+    journal = {Natural hazards},
+    author = {Kishtawal, Chandra M and Niyogi, Dev and Kumar, Anil and Bozeman, Monica Laureano and Kellner, Olivia},
+    number = {3},
+    pages = {1527--1542},
+    volume = {63},
+    issn = {0921-030X}
+}
+
+@article{shen2002,
+    title = {{A numerical investigation of land surface water on landfalling hurricanes}},
+    year = {2002},
+    journal = {Journal of the atmospheric sciences},
+    author = {Shen, Weixing and Ginis, ISAAC and Tuleya, Robert E},
+    number = {4},
+    pages = {789--802},
+    volume = {59},
+    issn = {1520-0469}
+}
+
+@article{pielke2001,
+    title = {{Influence of the spatial distribution of vegetation and soils on the prediction of cumulus convective rainfall}},
+    year = {2001},
+    journal = {Reviews of Geophysics},
+    author = {Pielke, Roger A},
+    number = {2},
+    pages = {151--177},
+    volume = {39},
+    issn = {1944-9208}
+}
+
+@article{Halliwell2015,
+    title = {{Idealized study of ocean impacts on tropical cyclone intensity forecasts}},
+    year = {2015},
+    journal = {Monthly Weather Review},
+    author = {Halliwell Jr, G R and Gopalakrishnan, S and Marks, F and Willey, D},
+    number = {4},
+    pages = {1142--1165},
+    volume = {143},
+    issn = {0027-0644}
+}
+
+@article{Evans2011,
+    title = {{Sensitivity in the overland reintensification of Tropical Cyclone Erin (2007) to near-surface soil moisture characteristics}},
+    year = {2011},
+    journal = {Monthly Weather Review},
+    author = {Evans, Clark and Schumacher, Russ S and Galarneau Jr, Thomas J},
+    number = {12},
+    pages = {3848--3870},
+    volume = {139},
+    issn = {0027-0644}
+}
+
+@article{SteinnAlpert1993,
+    title = {{Factor separation in numerical simulations}},
+    year = {1993},
+    journal = {Journal of the Atmospheric Sciences},
+    author = {Stein, U and Alpert, PINHAS},
+    number = {14},
+    pages = {2107--2115},
+    volume = {50},
+    issn = {1520-0469}
+}
+
+@article{tuleya1978,
+    title = {{A numerical simulation of the landfall of tropical cyclones}},
+    year = {1978},
+    journal = {Journal of the Atmospheric Sciences},
+    author = {Tuleya, Robert E and Kurihara, Yoshio},
+    number = {2},
+    pages = {242--257},
+    volume = {35},
+    issn = {1520-0469}
+}
+
+@article{Gopal2013,
+    title = {{A study of the impacts of vertical diffusion on the structure and intensity of the tropical cyclones using the high-resolution HWRF system}},
+    year = {2013},
+    journal = {Journal of the Atmospheric Sciences},
+    author = {Gopalakrishnan, Sundararaman G and Marks Jr, Frank and Zhang, Jun A and Zhang, Xuejin and Bao, Jian-Wen and Tallapragada, Vijay},
+    number = {2},
+    pages = {524--541},
+    volume = {70},
+    issn = {0022-4928}
+}
+
+@techreport{HWRFdoc2014,
+    title = {{Hurricane Weather Research and Forecasting (HWRF) model: 2011 scientific documentation}},
+    year = {2011},
+    booktitle = {Developmental Testbed Center},
+    author = {Tallapragada, Vijay and Gopalakrishnan, Sundararaman and Liu, Qingfu and Marchok, Timothy and Sheinin, Dmitry and Tong, Mingjing and Trahan, Samuel and Tuleya, Robert},
+    number = {August},
+    pages = {1--81},
+    url = {http://www.dtcenter.org/HurrWRF/users/docs/scientific{\_}documents/HWRFScientificDocumentation{\_}August2011.pdf},
+    howpublished = {Developmental Testbed Center}
+}
+
+@article{kellner2012,
+    title = {{The role of anomalous soil moisture on the inland reintensification of Tropical Storm Erin (2007)}},
+    year = {2012},
+    journal = {Natural hazards},
+    author = {Kellner, Olivia and Niyogi, Dev and Lei, Ming and Kumar, Anil},
+    number = {3},
+    pages = {1573--1600},
+    volume = {63},
+    issn = {0921-030X}
+}
+
+@article{Anderson2013,
+    title = {{Quantifying surface energy fluxes in the vicinity of inland-tracking tropical cyclones}},
+    year = {2013},
+    journal = {Journal of Applied Meteorology and Climatology},
+    author = {Andersen, Theresa K and Radcliffe, David E and Shepherd, J Marshall},
+    number = {12},
+    pages = {2797--2808},
+    volume = {52},
+    issn = {1558-8424}
+}
+
+@article{Chang2009PossibleDepressions,
+    title = {{Possible relation between land surface feedback and the post-landfall structure of monsoon depressions}},
+    year = {2009},
+    journal = {Geophysical Research Letters},
+    author = {Chang, Hsin I. and Niyogi, Dev and Kumar, Anil and Kishtawal, C. M. and Dudhia, Jimy and Chen, Fei and Mohanty, U. C. and Shepherd, Marshall},
+    number = {15},
+    volume = {36},
+    isbn = {0094-8276},
+    doi = {10.1029/2009GL037781},
+    issn = {00948276}
+}}
 
 
 \section*{Acknowledgements}
